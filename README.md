@@ -49,10 +49,7 @@ Expense Tracker/
 Follow these steps to get the project up and running locally on your Windows machine.
 
 ### 1. Clone the Repository
-```bash
-git clone [https://github.com/YOUR_USERNAME/expense-tracker.git](https://github.com/YOUR_USERNAME/expense-tracker.git)
-cd expense-tracker
-```
+
 --
 ### 2. Isolation & Deployment Setup
 
@@ -68,6 +65,7 @@ python -m venv venv
 # Install all the required packages from the manifesto
 pip install -r requirements.txt
 ```
+--
 ### 3. Running the Application
 
 Once your virtual environment is active and dependencies are installed, use **Uvicorn** (the ASGI web server) to launch the FastAPI application.
